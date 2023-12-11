@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(Senzatitolo-1.jpg) no-repeat center center;
+    height: 109vh;
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 50px;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.center {
+    display: block;
+    margin: 47px 800px;
+    width: 56%;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a
+{
+    text-decoration: none;
+    color: #1f262b;
+    padding: 0px 20px;
+    font-size: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.6s ease-in-out;
+}
+
+.navbar li a:hover {
+    color: #fff;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 60px;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: sans-serif;
+    letter-spacing: 0.4px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background: trasparent;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: #000000;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    border-radius: 25px;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
